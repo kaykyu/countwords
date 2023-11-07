@@ -4,19 +4,20 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
         {
             "type": "java",
             "name": "AIModel",
             "request": "launch",
-            "mainClass": "sdf.day04.AIModel",
-            "projectName": "Misc_a9e71f4b"
+            "mainClass": "sdf.aimodel.AIModel",
+            "projectName": "countwords_9de1fbed"
         },
         {
             "type": "java",
             "name": "Launch with Arguments Prompt",
             "request": "launch",
             "mainClass": "",
-            "args": "road_not_taken.txt"
+            "args": "./texts/frost/"
         },
         {
             "type": "java",
@@ -26,10 +27,17 @@
         },
         {
             "type": "java",
+            "name": "AIModel",
+            "request": "launch",
+            "mainClass": "AIModel",
+            "projectName": "countwords_9de1fbed"
+        },
+        {
+            "type": "java",
             "name": "CountWordsFromFile",
             "request": "launch",
             "mainClass": "sdf.day04.CountWordsFromFile",
-            "projectName": "Misc_a9e71f4b"
+            "projectName": "countwords_9de1fbed"
         }
     ]
 }
