@@ -102,10 +102,9 @@ public class AIModel {
                     System.out.printf("%s ", sentence.get(a));
                 }
                 
-                
-            }
-
             input = cons.readLine("\n> ");
+
+            }
         }
     }          
 }
